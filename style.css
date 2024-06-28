@@ -92,7 +92,25 @@ body {
    button:hover {
     background-color: #555;
    }
-
+ 
    .hidden-border {
     border: 5px solid red;
    }
+
+   footer {
+      display: flex;
+      justify-content: center; 
+      gap: 20px; 
+      background-color: #333; 
+      color: white; 
+      padding: 20px; 
+  }
+  
+  footer p {
+      display: flex;
+      align-items: center;
+      gap: 8px; 
+      margin: 0;
+  }
+  
+   
